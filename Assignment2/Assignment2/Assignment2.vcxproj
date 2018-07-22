@@ -21,8 +21,12 @@
   <ItemGroup>
     <ClCompile Include="InventorySystem.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="InventoryItem.cpp" />
+    <ClCompile Include="Product.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InventoryItem.h" />
+    <ClInclude Include="Product.h" />
     <ClInclude Include="InventorySystem.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -91,7 +95,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
